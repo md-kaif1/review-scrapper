@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()   
+
 import pandas as pd
 import streamlit as st
 from src.cloud_io import MongoIO
